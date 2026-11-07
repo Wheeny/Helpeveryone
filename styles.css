@@ -1,0 +1,755 @@
+body{
+    background-color: #F5F5F5;
+    font-family:'Poppins', sans-serif;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:20px;
+    padding: 20px 40px;
+    border-bottom: 1px solid grey;
+}
+
+div ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: #2995E2;
+    
+}
+
+.logo-container img {
+   width: 45px;
+}
+
+.signup-button button {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+
+.signup-button button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+.hamburger{
+    display: none;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.hero-section div{
+    width: 50%;
+    padding: 20px;  
+    font-size: 40px;
+}
+
+.hero-section img{
+    width: 900px;
+    /* height: 400px;
+    object-fit: cover; */ 
+    /* float: right; */
+}
+
+.hero-section span{
+    color: #2995E2;
+}
+
+
+.get-started-button{
+    background-color: #2995E2;
+    border: 1px solid grey;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.get-started-button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+.watch-story-button{
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.watch-story-button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+.about-us-section{
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.about-us-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: solid 1px; */
+    width: 50%;
+    font-size: 25px;
+    line-height: 50px;
+
+} 
+
+.tent {
+    position: absolute;
+    top: 80%;
+    right: 20%;
+
+}
+
+
+.sun-and-clouds {
+    position: absolute;
+    bottom: 70%;
+    left: 30%;
+}
+
+.services-section{
+    font-size: 25px;
+
+}
+
+.services-section h1{
+    color: #2995E2;
+
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
+.service div{
+    width: 50%;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 50px;
+
+}
+
+.service img{
+    width: 900px;
+    /* border: none; */
+    /* height: 400px;
+    object-fit: cover; */ 
+    /* float: right; */
+
+}
+
+.service2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
+.service2 div{
+    width: 50%;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 50px;
+
+}
+
+.service2 img{
+    width: 900px;
+    /* border: none; */
+    /* height: 400px;
+    object-fit: cover; */ 
+    /* float: right; */
+
+}
+
+
+.about-this-button{
+    background-color: #2995E2;
+    border: 1px solid grey;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.about-this-button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+
+.help-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.help-section h1{
+    color: white;
+}
+
+.help{
+    display: flex;
+    background-color: #2995E2;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    width: 80%;
+    border: 15px solid white;
+}
+
+.help div img{
+    margin-bottom: -80px;
+}
+
+.help div h1{
+    width: 60%;
+    line-height: 50px;
+}
+
+.get-in-touch-button{
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.get-in-touch-button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+
+.request-consultation-section{
+    margin-top: 100px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid  #2995E2;
+    width: 90%;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 80%;
+}
+
+.name-email-form-inputs{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 80px; 
+}
+
+.full-name-form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.full-name-form-input input{
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+    width: 700px;
+    border: 1px solid grey;
+}
+
+
+.email-form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.email-form-input input{
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+    width: 700px;
+    border: 1px solid grey;
+}
+
+.email-form-input input::placeholder{
+    color: #2995E2;
+}
+
+.state-industry-form-inputs{
+    display: flex;
+    gap: 420px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+.state-form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.state-form-input select{
+    margin-top: 50px;
+    height: 60px;
+    font-size: 20px;
+    width: 700px;
+}
+
+
+.industry-form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.industry-form-input select{
+    margin-top: 50px;
+    height: 60px;
+    font-size: 20px;
+    width: 700px;
+}
+
+.submit-button{
+    background-color: #2995E2;
+    border: 1px solid grey;
+    padding: 20px 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    width: 500px;
+}
+
+.submit-button:hover{
+    background-color: pink;
+    cursor:progress;
+    font-family: "cursive";
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+.last-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    border: 1px  solid grey;
+}
+
+.last-section-div1{
+    width: 50%;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.logo-container-2{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    color: #2995E2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo-container-2 img {
+   width: 60px;
+}
+
+.last-section-div1 div h1{
+    line-height: 80px;
+}
+
+.last-section-div2{
+    width: 50%;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.last-section-div1{
+    width: 1800px; 
+    font-size: 20px;
+}
+
+.last-section-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.pre-services{
+    display: flex;
+}
+
+.services{
+    width: 33%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.info{
+    width: 33%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contact{
+    width: 33%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.last-section h1 span{
+    color: #2995E2;
+}
+
+
+.services span{
+    font-weight: bold;
+} 
+
+
+.info span{
+    font-weight: bold;
+}
+
+.contact span{
+    font-weight: bold;
+}
+
+.services ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.footer-section div{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 60px; 
+    color: grey;
+}
+
+.footer-section div span{
+    color: #2995E2;
+    margin-left: 60px;
+}
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 480px) {
+    nav ul, .signup-button {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-container {
+        font-size: 16px;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-section div{
+        width: 100%;
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    .hero-section img{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section div{
+        font-size: 15px;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .get-started-button, .watch-story-button, .about-this-button, .get-in-touch-button, .submit-button{
+        padding: 10px 20px;
+        font-size: 10px;
+        
+    }
+
+    .about-us-section div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     /* border: solid 1px; */
+        width: 90%;
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+    .tent {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    width: 70px;
+    height: 40px;
+
+    }
+
+    .sun-and-clouds {
+    position: absolute;
+    bottom: 70%;
+    left: 5%;
+    width: 100px;
+    height: 60px;
+    
+    }
+
+    .service{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+    .service div{
+        width: 100%;
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    
+
+    .service img{
+        width: 100%;
+        height: auto;
+    }
+
+    .services-section div{
+        font-size: 15px;
+    }
+
+    .service-intro h1{
+        margin-top: 55px;
+        margin-left: 100px;
+        
+    }
+
+    .service-intro p{
+        margin-left: 50px;
+        
+    }
+
+    .service2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service2 div{
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .service2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .help-section{
+
+
+        }
+    .help img{
+        display: none;
+    }
+
+    .help h1{
+        width: 100%;
+        line-height: 25px;
+        font-size:15px;
+    }
+
+
+    .request-consultation-section{
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+    }
+
+        .form-inputs{
+            width: 100%;
+        }
+
+    .name-email-form-inputs{
+        flex-direction: column;
+        gap: 70px;
+
+    }
+
+    .state-industry-form-inputs{
+        flex-direction: column;
+        gap:70px;
+    }
+
+    .name-email-form-inputs input, .state-industry-form-inputs select{
+        height: 40px;
+        width: 300px;
+        font-size: 15px;;
+    }
+    
+    .submit-button{
+        width: 280px;
+    }
+
+    .last-section{
+        flex-direction: column;
+    }
+        
+    .last-section-div1{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+    .logo-container-2 img{
+        width: 40px;
+    }
+
+    .logo-container-2 span{
+        font-size: 20px;
+    }
+
+
+    .last-section-div1 div h1{
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .last-section-div2{
+        margin-top: 1px;
+        width: 100%;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .pre-services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .footer-section div{
+        width: 100%;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
+
+    
